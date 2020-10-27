@@ -32,7 +32,8 @@ jobs:
         name: webpack artifacts
         path: public
     - name: npm install, and test
-        CI: true
+        CI:
+        true
 
     strategy:
       matrix:
